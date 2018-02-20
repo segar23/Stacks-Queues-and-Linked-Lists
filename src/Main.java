@@ -1,6 +1,10 @@
 import java.util.LinkedList;
 import java.util.Stack;
 
+
+/*
+Class Queue using LinkedList to simulate a queue behaviour.
+ */
 class Queue {
     LinkedList<String> queue = new LinkedList<>();
 
@@ -9,6 +13,7 @@ class Queue {
     }
 
     public String retrieve () {
+        //Since the idea of retrieving is to remove from the queue, always delete the value
         String value = queue.getFirst();
         queue.removeFirst();
         return value;
@@ -19,6 +24,8 @@ public class Main {
     public static void main (String [] args) {
         String [] data = {"A", "B", "C", "D", "E"};
         Queue queue = new Queue();
+
+        //Stack operations for insert and retrieve are push and pop.
         Stack<String> stack = new Stack<>();
 
         for (int i = 0; i < data.length; i++) {
