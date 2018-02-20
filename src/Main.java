@@ -18,6 +18,10 @@ class Queue {
         queue.removeFirst();
         return value;
     }
+
+    public boolean isEmpty() {
+        return queue.isEmpty();
+    }
 }
 
 public class Main {
@@ -34,7 +38,7 @@ public class Main {
         }
 
         System.out.println("Retrieving Queue:");
-        for (int i = 0; i < data.length; i++) {
+        while (!queue.isEmpty()) {
             System.out.println(queue.retrieve());
         }
 

@@ -17,12 +17,14 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="27" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,12 +228,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519069798138</updated>
-      <workItem from="1519069801686" duration="3504000" />
+      <workItem from="1519069801686" duration="4274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3504000" />
+    <option name="totallyTimeSpent" value="4274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="22" width="1398" height="878" extended-state="6" />
@@ -279,12 +281,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="27" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
