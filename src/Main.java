@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Scanner;
 import java.util.Stack;
 
 
@@ -26,7 +27,16 @@ class Queue {
 
 public class Main {
     public static void main (String [] args) {
-        String [] data = {"A", "B", "C", "D", "E"};
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many items do you want?");
+        int items = scanner.nextInt();
+
+        String [] data = new String[items];
+        for (int i = 0; i < data.length; i++) {
+            System.out.println("Enter Item " + i);
+            data[i] = scanner.next();
+        }
+
         Queue queue = new Queue();
 
         //Stack operations for insert and retrieve are push and pop.
