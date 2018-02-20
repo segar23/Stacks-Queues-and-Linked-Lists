@@ -32,15 +32,14 @@ public class Main {
         //Stack operations for insert and retrieve are push and pop.
         Stack<String> stack = new Stack<>();
 
+        System.out.println("Star entering values: ");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("How many items do you want?");
-        int items = scanner.nextInt();
-
-        for (int i = 0; i < items; i++) {
-            System.out.println("Enter Item " + i);
-            String item = scanner.next();
+        String item = scanner.next();
+        while (!item.equals(".")) {
             queue.insert(item);
             stack.push(item);
+            System.out.println("Enter Next Item :");
+            item = scanner.next();
         }
 
         System.out.println("Retrieving Queue:");
