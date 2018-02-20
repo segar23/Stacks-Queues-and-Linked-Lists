@@ -27,24 +27,20 @@ class Queue {
 
 public class Main {
     public static void main (String [] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("How many items do you want?");
-        int items = scanner.nextInt();
-
-        String [] data = new String[items];
-        for (int i = 0; i < data.length; i++) {
-            System.out.println("Enter Item " + i);
-            data[i] = scanner.next();
-        }
-
         Queue queue = new Queue();
 
         //Stack operations for insert and retrieve are push and pop.
         Stack<String> stack = new Stack<>();
 
-        for (int i = 0; i < data.length; i++) {
-            queue.insert(data[i]);
-            stack.push(data[i]);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many items do you want?");
+        int items = scanner.nextInt();
+
+        for (int i = 0; i < items; i++) {
+            System.out.println("Enter Item " + i);
+            String item = scanner.next();
+            queue.insert(item);
+            stack.push(item);
         }
 
         System.out.println("Retrieving Queue:");
